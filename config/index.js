@@ -10,7 +10,7 @@ export const config = {
     APP_SECRET: "61d11078ab3e2675a38bb4406e4f21b8",
 
     // 模板消息id
-    TEMPLATE_ID: " Bd3JnHpu-xzRFcOM2Dg_Xw0yL0gJ6LViJljEllBwA3Y",
+    TEMPLATE_ID: "CWwLB2SCGeyT6Y7NteMKeqiR2fsbdpibZEqEFsVa2m0",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
     CALLBACK_TEMPLATE_ID: "xxxxxxxxxxxxx-y你懂的,填错狗头打烂VRMpu",
@@ -25,12 +25,12 @@ export const config = {
     //   id: "wxafasdasdd-zxfvsdfd"
     // }]
     USERS: [
-      {name: '冰冰', id: " oy0wj5-BShIYgvppD5CxJScI-jTU"}, 
+      {name: '冰冰', id: "oy0wj5-BShIYgvppD5CxJScI-jTU"}, 
       
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
-      {name: '自己',id: " oy0wj580ssSW0oMBFB1o9NLoAU8s"}, 
+      {name: '自己',id: "oy0wj580ssSW0oMBFB1o9NLoAU8s"}, 
     ],
      
     /**
@@ -51,8 +51,8 @@ export const config = {
     // 生日时，name填写想要展示的名字，你可以填“美丽可爱亲亲老婆”
     // 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
     FESTIVALS: [
-      {"生日": "生日", "name": "冰冰", "year": "2000", "date": "12-13"},
-     
+      {"type": "生日", "name": "冰冰", "year": "2000", "date": "12-13"},
+    
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
     // 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
@@ -62,9 +62,9 @@ export const config = {
     /** 日期相关 */
 
     // 在一起的日子，格式同上
- 
+    LOVE_DATE: "永远",
     // 结婚纪念日
-   
+    MARRY_DATE: "",
 
 
     /** 每日一言 */
