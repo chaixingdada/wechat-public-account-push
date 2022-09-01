@@ -10,10 +10,10 @@ export const config = {
     APP_SECRET: "61d11078ab3e2675a38bb4406e4f21b8",
 
     // 模板消息id
-    TEMPLATE_ID: "CWwLB2SCGeyT6Y7NteMKeqiR2fsbdpibZEqEFsVa2m0",
+    TEMPLATE_ID: "CO7mPw3597fsUE8jEymXBi7WF-LoD7RRv3-wEgnOe9U",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "xxxxxxxxxxxxx-y你懂的,填错狗头打烂VRMpu",
+    CALLBACK_TEMPLATE_ID: "CO7mPw3597fsUE8jEymXBi7WF-LoD7RRv3-wEgnOe9U",
 
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
     // [{
@@ -71,7 +71,7 @@ export const config = {
 
     // 好文节选的内容类型
     // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-    LITERARY_PREFERENCE: ""
+    LITERARY_PREFERENCE: "其他"
 
 
     }
